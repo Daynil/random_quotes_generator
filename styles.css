@@ -11,7 +11,7 @@
     font-family: 'Ubuntu', sans-serif;
     background-color: #E18628;
     color: aliceblue;
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 800;
     min-height: 80px;
     border-radius: 10px;
@@ -19,7 +19,7 @@
     padding: 20px 50px 20px 50px
 }
 
-#generate {
+#generate, #tweet-button {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
@@ -37,11 +37,11 @@
     -ms-user-select: none;
 }
 
-#generate:hover {
+#generate:hover, #tweet-button:hover {
     background-color: #6B4996;
 }
 
-#generate:active {
+#generate:active, #tweet-button:active {
     background-color: #8f71b4;
     transition: 0.1s;
 }
@@ -60,4 +60,15 @@
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.tweet {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#tweet-button {
+    
 }
